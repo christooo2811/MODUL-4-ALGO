@@ -1,0 +1,12 @@
+import calendar as c
+print("Program dapat menentukan jumlah hari di salah satu bulan")
+respon = "y"
+while respon == "y": 
+    tahun = int(input("Masukan Tahun: ")) 
+    bulan = int(input("Masukan Bulan: "))
+    print("Ada", (c.monthrange(tahun, bulan)[1]), "Hari di bulan ke",bulan)
+    respon = input("ketik'y' jika ingin lanjut, ketik 'n' jika stop ")
+    if respon == "n":
+        print("Terimakasih sudah Menggunakan program ini")
+        print("CHRISTIAN SAMUEL 065002200041")
+        break
